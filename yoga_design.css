@@ -1,0 +1,318 @@
+@font-face {
+    font-family: 'Source sans pro';
+    src:url(./SourceSansPro-Regular.otf);
+}
+@font-face {
+    font-family: 'Philosopher';
+    src:url(./Philosopher-Regular.ttf);
+}
+
+#header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 5%;
+    background-color: white;
+}
+body{
+    margin: 0px;
+}
+#navigation{
+    width: 70%;
+    padding: 3%;
+}
+.navigation{
+    padding: 1.5%;
+    font-size: small;
+    font-family: 'Source sans pro';
+    color: #555547;
+}
+#button button{
+    background-color: white;
+    border: 1px solid #009090;
+    color: #009090;
+    font-family: 'Source sans pro';
+    margin-left: 10%;
+    border-radius: 30%;
+    height: 4vh;
+    width: 50%;
+    
+}
+#lupa{
+    height: 50%;
+    display: inline-block;
+}
+#button{
+    width: 15%;
+    display: flex;
+    height: 5vh;
+    align-items: center;
+}
+#about-us{
+    background-color: rgba(213, 212, 208, 1);
+}
+#header-text{
+    height: 22vh;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 22%;
+    
+}
+#header-text h1{
+    font-family: 'Philosopher';
+    color: #0E5C63;
+    
+}
+#header-text p{
+    font-family: 'Source sans pro';
+    font-size: small;
+    font-weight: bolder;
+    color: #555547;
+    
+}
+#header-text button{
+    border: none;
+    background-color: #F1A293;
+    color: white;
+    width: 50%;
+    height: 15%;
+    border-radius: 10px;
+    margin-top: 3%;
+
+}
+#image1 #pechyat{
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    width: 10%;
+    z-index: 1;
+}
+#image1 #tetya{
+    position: relative;
+    width: 90%;
+    margin-left:5%;
+    border-radius: 50% 0% 0% 0%;
+}
+#underimageblock{
+    width: 80%;
+    background-color: #F8F8F6;
+    position: relative;
+    display: flex;
+    margin-left: 10%;
+    top: -8vh;
+    z-index: 1;
+}
+.elem_underimage{
+    width: 33.3%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+#underimageblock #imgelem{
+    float: left;
+    position: relative;
+    top: -4%;
+
+}
+.elem_underimage h2{
+    color: #0E5C63;
+    font-family: 'Source sans pro';
+    margin-bottom: 0%;
+    
+}
+.elem_underimage .lasttext{
+   text-align: left;
+   margin-left: 30%;
+}
+.elem_underimage p{
+    font-size: large;
+    font-family: 'Source sans pro';
+    margin-top: 0%;
+}
+#yoga-video{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+}
+#yoga-video h1{
+    color: #0E5C63;
+    font-family: 'Source sans pro';
+    font-weight: bolder;
+
+}
+#yoga-video p{
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Source sans pro';
+}
+#cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #555547;
+    text-align: left;
+    
+}
+#cards .second{
+    font-weight: bold;
+}
+#button-center button{
+    color: white;
+    background-color: #F1A293;
+    border: none;
+    border-radius: 15%;
+    width: 20%;
+    height: 5vh;
+}
+#zur{
+    color: #009090;
+    border:2px solid #009090;
+    position: relative;
+    width: 15%;
+    padding: 1% 0px;
+    border-radius: 25%;
+    text-align: center;
+    top: -12vh;
+    right: -75%;
+
+
+}
+#personal{
+    background: #F8F8F6;
+    padding-top: 3%;
+}
+#andrzey{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+#personal2{
+    display: flex;
+}
+#couch{
+    width: 25%;
+}
+#couch h3{
+    color: #0E5C63;
+    font-weight: 900;
+    
+}
+#yoga-programme{
+    padding-top: 3%;
+}
+#slider{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #BABABA;
+    margin: 0 1%;
+}
+.dot:nth-child(2){
+    background: #009090;
+
+}
+#yoga-magazin2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.course-text a, .course-text h3{
+    text-decoration: none;
+    color: white;
+    
+}
+.course-text{
+    background: #009090;
+    margin-top: -6.2%;
+    width: 100%;
+    height: 14vh;
+    border-radius: 0% 0% 35px 35px;
+
+
+}
+.course{
+    width: 31.5%;
+    
+}
+.course-text h3{
+    padding-top: 3%;
+}
+#app{
+    display: flex;
+}
+.app{
+    background-color: #F2EBE4;
+    padding: auto 2%;
+}
+.app img{
+    margin-top: 5%;
+}
+#yoga-academy{
+    margin-top: 4%;
+}
+#fivestars{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.stars{
+    background: #F3EEE9;
+    width: 32%;
+    border-radius: 5%;
+    padding-top: 2%;
+    height: 33vh;
+}
+.second-p{
+    font-size: smaller;
+}
+#last{
+    margin-top: 3%;
+}
+#last button{
+    margin-top: 3%;
+    border: none;
+    background-color: #F1A293;
+    color: white;
+    width: 20%;
+    height: 5vh;
+    border-radius: 20px;
+}
+#footer{
+    background: linear-gradient(180deg, #128788 0%, #0E5C63 59.37%);
+    color: white;
+    font-family: 'Source sans pro';
+    text-align: center;
+    
+
+}
+#footer h3{
+    padding-top: 7%;
+}
+input{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: 7vh;
+    border-radius: 3%;
+    border-width: 0px;
+    padding-left: 1%;
+}
+#footer button{
+    border: none;
+    background-color: white;
+    margin-top: 1%;
+    width: 20%;
+    height: 6vh;
+    border-radius: 20px;
+    font-size: medium;
+    margin-bottom: 5%;
+}
